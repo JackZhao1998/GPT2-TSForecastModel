@@ -311,4 +311,4 @@ class GPT2ModelConfig:
         self.dropout = 0.2
         
         #path
-        self.path = 'model states/transformer_exp.pt'
+        self.path = path+'model_name.pt'
