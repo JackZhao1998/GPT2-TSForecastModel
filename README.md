@@ -4,8 +4,8 @@ This is a Time Sereis Forecasting model based on GPT2 structure (decoder-only-ba
 
 seed: the random seed used to initialize the training
 ## model structure hyperparameter
-feature_list: a list of strings corresponding to the input features. Example ['x1','x2','x3']
-d_input: number of input features
+- feature_list: a list of strings corresponding to the input features. Example ['x1','x2','x3']
+- d_input: number of input features
 target_var_list: a list of strings corresponding to the output variables, could be univariate or multi-variate. Example ['Y1', 'Y2']
 d_output: [int] number of target variables to be predicted
 time: [int] a string corresponding to the time columns
