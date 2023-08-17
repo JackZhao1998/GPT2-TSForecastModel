@@ -62,7 +62,7 @@ def GPT2Evaluater(configs,train_df, val_df, test_df, plot = True, return_details
     test_loss = long_loss(test_yhat, test_y, test_mask_pred)
     test_yhat = test_yhat.cpu().detach().numpy().reshape(test_yhat.shape[1])
     
-    if plot == True:
+    if plot == True: ## modify this part for personal display purpose
         plt.figure()
         t = range(val_yhat.shape[0]-1)
         plt.plot(t,val_yhat[:-1],'b-',label = 'prediction')
