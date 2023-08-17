@@ -2,7 +2,8 @@
 
 This is a Time Sereis Forecasting model based on GPT2 structure (decoder-only-based). The model uses naive sinusoid positional encoding to handle both discrete and continous time space.
 
-seed: the random seed used to initialize the training
+# Model Configs
+- seed: the random seed used to initialize the training
 ## model structure hyperparameter
 - feature_list: a list of strings corresponding to the input features. Example ['x1','x2','x3']
 - d_input: number of input features
