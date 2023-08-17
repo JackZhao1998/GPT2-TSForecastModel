@@ -1,6 +1,6 @@
 # GPT2 Multivariate Time Series Forecasting Model
 
-This is a Time Sereis Forecasting model based on GPT2 structure (decoder-only-based). The model uses naive sinusoid positional encoding to handle both discrete and continous time space.
+This is a Time Sereis Forecasting model based on GPT2 structure (decoder-only-based). The model uses naive sinusoid positional encoding to handle both discrete and continous time space. Right now it is a Time Series Forecasting Model (for regression type tasks). A version for time series classification will be updated soon in the future. 
 
 # Model Configs
 - seed: the random seed used to initialize the training
